@@ -3,27 +3,30 @@ body{
     background-color: #000000;
     color: #FFFFFF;
     margin: 20px 20px 0 20px;
+    text-align: center;
 }
 
 h1{
     font-size: 42px;
     text-align: center;
     padding: 15px;
+    color: #C4C4C4;
 }
 
 h2{
-    font: 30px #C4C4C4;
+    font-size: 30px;
+    color: #C4C4C4;
 }
 
 p{
     font-size: 24px;
     padding: 10px 0 0 10px;
+    color: #C4C4C4;
 }
 
 img{
     width: 250px;
     border: 10px dashed #FFFFFF;
-    margin: auto;
 }
 
 div{
