@@ -9,27 +9,21 @@ h1{
     font-size: 42px;
     text-align: center;
     padding: 15px;
-    color: #C4C4C4;
 }
 
 h2{
     font-size: 30px;
-    color: #C4C4C4;
 }
 
 p{
     font-size: 24px;
     padding: 10px 0 0 10px;
-    color: #C4C4C4;
 }
 
 img{
     width: 250px;
     border: 10px dashed #FFFFFF;
-    /*
-    https://www.w3schools.com/howto/howto_css_image_center.asp
-    */
-    display: block;
+    /* https://www.w3schools.com/css/css_margin.asp */
     margin: auto;
 }
 
@@ -50,7 +44,7 @@ div{
     text-align: right;
     margin-left: 50px;
     border-bottom-width: 2px;
-    border-left-width: 3px;
+    border-left-width: 5px;
     border-right-width: 0px;
     border-top-width: 0px;
 }
@@ -67,6 +61,7 @@ div{
 }
 
 .yellow{
+    color: red;
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
@@ -74,11 +69,9 @@ div{
     border-left-width: 5px;
     border-top-width: 0px;
     border-right-width: 0px;
-}
-
-.yellow > p{
     color: #707070;
 }
+
 
 .green{
     background-color:  #008500;
