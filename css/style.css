@@ -23,9 +23,9 @@ p{
 img{
     width: 250px;
     border: 10px dashed #FFFFFF;
-    /* https://www.w3schools.com/howto/howto_css_image_center.asp */
+    /* https://www.freecodecamp.org/news/html-center-image-css-align-img-center-example/#howtocenteranimagewiththemarginproperty */
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 div{
@@ -69,6 +69,9 @@ div{
     border-left-width: 5px;
     border-top-width: 0px;
     border-right-width: 0px;
+}
+
+.yellow >p {
     color: #707070;
 }
 
